@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+main {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.body__img {
+    display: flex;
+    justify-content: end;
+}
+
+img {
+    width: 50%;
+    position: relative;
+}
+
+.body__div {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+
+.body__div--div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div__form--inputs {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    height: 50%;
+    padding: 10px;
+}
+
+.div__form--signup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div__form--signup > button {
+    height: 25px;
+    width: 100px;
+}
+
+.div__form--signup > input {
+    padding: 10px; 
+}
+
+.body__div--terms {
+    padding: 15px;
+}
