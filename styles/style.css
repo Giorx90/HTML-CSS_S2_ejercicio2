@@ -23,6 +23,7 @@ img {
     display: flex;
     width: 70%;
     flex-direction: column;
+    flex-basis: 500px;
 }
 
 .body__div--div {
@@ -39,12 +40,17 @@ img {
 
 ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     margin-left: 10%;
     height: 50%;
-    padding: 10px;
+    padding: 5px;
 }
+
+ul > div {
+    margin: 15px;
+}
+
 
 .div__form--signup {
     display: flex;
@@ -52,14 +58,14 @@ ul {
 }
 
 .div__form--signup > button {
+    margin: auto;
     height: 25px;
     width: 100px;
 }
 
 .div__form--signup > input {
-    padding: 10px; 
+    margin: 15px; 
 }
 
 .body__div--terms {
-    padding: 15px;
 }
